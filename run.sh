@@ -8,23 +8,23 @@ if [ ${day} -eq 1 ]; then
 fi
 
 if [ ${day} -eq 2 ]; then
-        ${dir}/Castle.sh &
-fi
-
-if [ ${day} -eq 3 ]; then
         ${dir}/Earth.sh &
 fi
 
-if [ ${day} -eq 4 ]; then
+if [ ${day} -eq 3 ]; then
         ${dir}/Earth_View.sh &
 fi
 
-if [ ${day} -eq 5 ]; then
+if [ ${day} -eq 4 ]; then
         ${dir}/Miami.sh &
 fi
 
-if [ ${day} -eq 6 ]; then
+if [ ${day} -eq 5 ]; then
         ${dir}/Mojave_XP.sh &
+fi
+
+if [ ${day} -eq 6 ]; then
+        ${dir}/Licancabur.sh &
 fi
 
 if [ ${day} -eq 7 ]; then
