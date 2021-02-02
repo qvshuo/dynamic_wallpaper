@@ -1,7 +1,7 @@
 #! /bin/bash
 
 time=$(date +%H)
-dir="/home/hz/Pictures/backgrounds/BigSur"
+dir="/home/huizhi/Pictures/backgrounds/BigSur"
 
 if [ ${time} -ge 0 ] && [ ${time} -lt 5 ]; then
 	hsetroot -fill ${dir}/16.jpg &

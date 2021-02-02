@@ -1,7 +1,7 @@
 #! /bin/bash
 
 day=$(date +%u)
-dir="/home/hz/Desktop/dynamic_wallpaper"
+dir="/home/huizhi/Desktop/dynamic_wallpaper"
 
 if [ ${day} -eq 1 ]; then
         ${dir}/BigSur.sh &
