@@ -1,7 +1,7 @@
 #! /bin/bash
 
 time=$(date +%H)
-dir="/home/huizhi/Pictures/backgrounds/Mojave_XP"
+dir="/home/hz/Pictures/backgrounds/Mojave_XP"
 
 if [ ${time} -ge 0 ] && [ ${time} -lt 4 ]; then
 	hsetroot -fill ${dir}/6.jpg &
